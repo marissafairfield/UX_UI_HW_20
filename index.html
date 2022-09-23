@@ -6,13 +6,17 @@
 		<meta name="description" content="">
 		<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
 		<meta name="generator" content="Hugo 0.98.0">
-		<title>Starter Template · Bootstrap v5.2</title>
+		<title>Stardew Valley</title>
+
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+			</style>
 
 		<!-- Bootstrap CSS -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 		
 		<!-- Custom styles for this template -->
-		<link href="css/starter-template.css" rel="stylesheet">
+		<!-- <link href="css/starter-template.css" rel="stylesheet"> -->
 
 		<!-- YOUR styles for this template -->
 		<link href="css/styles.css" rel="stylesheet">
@@ -23,7 +27,7 @@
 		<div class="col-lg-8 mx-auto p-3 py-md-5">
 			<header class="d-flex align-items-center pb-3 mb-5 border-bottom">
 				<a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-					<nav class="navbar navbar-expand-lg bg-light">
+					<nav class="navbar navbar-expand-lg">
 						<div class="container-fluid">
 						  <a class="navbar-brand" href="#">Stardew Valley</a>
 						  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,16 +39,16 @@
 								<a class="nav-link active" aria-current="page" href="#">Home</a>
 							  </li>
 							  <li class="nav-item">
-								<a class="nav-link" href="#">Story</a>
+								<a class="nav-link" href="#story">Story</a>
 							  </li>
 							  <li class="nav-item">
-								<a class="nav-link" href="#">Farming</a>
+								<a class="nav-link" href="#farming">Farming</a>
 							  </li>
 							  <li class="nav-item">
-								<a class="nav-link" href="#">Combat</a>
+								<a class="nav-link" href="#combat">Combat</a>
 							  </li>
 							  <li class="nav-item">
-								<a class="nav-link" href="#">Friendship</a>
+								<a class="nav-link" href="#friendship">Friendship</a>
 							  </li>
 							</ul>
 						  </div>
@@ -55,11 +59,11 @@
 
 			<main>				
 				<div class="heroSection">
-					<img src="/images/StardewValleyHome.jpg" class="img-fluid" alt="...">
+					<img src="/images/StardewValleyHome.jpg" id=heroImg class="img-fluid" alt="...">
 					<p class="welcome"></p>
 				</div>
 
-				<div class="storyDiv">
+				<div id="story" class="storyDiv">
 					<h1>Story</h1>
 					<img src="/images/StardewBeginningFarm.png" class="img-fluid" alt="...">
 					<p class="storySection">You have inherited your grandfather’s farm
@@ -69,7 +73,7 @@
 						</p>
 				</div>
 
-				<div class="farmingDiv">
+				<div id="farming" class="farmingDiv">
 					<h1>Farming</h1>
 					<img src="/images/StardewPrettyFarm.jpg" class="img-fluid" alt="...">
 					<p class="farmingSection">The farm is overgrown and abandoned and needs a lot of work!
@@ -79,7 +83,7 @@
 						</p>
 				</div>
 
-				<div class="combatDiv">
+				<div id="combat" class="combatDiv">
 					<h1>Combat</h1>
 					<img src="/images/StardewCombat.jpg" class="img-fluid" alt="...">
 					<p class="combatSection">To craft necessities, you need to get ahold of different types of resources like wood, stone, and iron.
@@ -88,7 +92,7 @@
 						</p>
 				</div>
 
-				<div class="friendshipDiv">
+				<div id="friendship" class="friendshipDiv">
 					<h1>Friendship</h1>
 					<img src="/images/StardewFriendship.jpg" class="img-fluid" alt="...">
 					<p class="friendshipSection">There are many neighbors around with different personalities, likes, and dislikes. 
@@ -105,7 +109,30 @@
 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
+		<div class="footerNav">
+			<footer class="bg-light text-center text-lg-start">
+				<!-- Grid container -->
+				<div class="container p-4">
+				  <!--Grid row-->
+				  <div class="row">
+					<!--Grid column-->
+					<div class="col-lg-7 col-md-12 mb-4 mb-md-0">
+					  <h5 class="text-uppercase">Thank you for visiting!</h5>
+			  
+					  <p>
+						Create the farm of your dreams: Turn your overgrown fields into a lively and bountiful farm!
+						Learn to live off the land: Raise animals, go fishing, tend to crops, craft items, or do it all! The choice is yours...
+						Become a part of the local community: Pelican Town is home to over 30 residents you can befriend!
+						Meet someone special: With 12 townsfolk to date, you may even find someone to start a family with!
+						Explore vast, mysterious caves: Encounter dangerous monsters & valuable treasures deep underground!
+						Customize: There are hundreds of character & home decoration options to choose from!
+					  </p>
 
+					  <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+						<a href="https://www.stardewvalley.net/" rel=Buy>Buy Stardew Valley Here!</a>
+					</div>
+			  
+		</div>
 	</body>
 </html>
 
