@@ -1,0 +1,141 @@
+/* add your css styles here! */
+body {
+	width: 1500px;
+	max-width: 100%;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+.navbar navbar-expand-lg bg-light {
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+nav {
+    align-content: center;
+    max-width: 100%;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+.navbar-brand {
+    font-family: 'Press Start 2P', cursive;
+    text-align: left;
+    align-items:center
+}
+
+a.navbar-brand{
+    color: #087AEC;
+    border-radius: 2rem;
+    margin: left 10rem;
+}
+
+a.nav-link.active{
+    color:#37911B;
+    
+}
+
+a.nav-link{
+    color:#122665;
+}
+
+header{
+    position:fixed;
+    background-color:#E9A722;
+    width:100%;
+    top:0;
+    left:0;
+}
+
+.heroSection {
+    position:stretch;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+h1 {
+    font-family:'Press Start 2P', cursive;
+    padding-top: 3rem;
+    font-size: medium;
+}
+
+.nav-item {
+    font-family: 'Press Start 2P', cursive;
+}
+
+h5 {
+    font-family: 'Press Start 2P', cursive;
+    font-size:small;
+    color:#087AEC;
+    text-align:left;
+}
+
+p{
+    font-family: 'Press Start 2P', cursive;
+    font-size:x-small;
+    color:#087AEC;
+    text-align:left;
+}
+
+img.img-fluid{
+    height: 25%;
+    width: 100;
+}
+
+#story {
+    padding: 2rem 2rem;
+    text-align: left;
+    width:100%;
+}
+
+.storySection{
+    float:right;
+    text-align:right;
+    width:40%;
+    vertical-align: center;
+}
+
+#farming {
+    padding: 2rem 2rem;
+    text-align: left;
+    width:100%;
+}
+
+.farmingSection {
+    float:right;
+    text-align:right;
+    width:40%;
+    vertical-align: center;
+}
+
+#combat {
+    padding: 2rem 2rem;
+    text-align: left;
+    width:100%;
+}
+
+.combatSection {
+    float:right;
+    text-align:right;
+    width:40%;
+    vertical-align: center;
+}
+
+#friendship {
+    padding: 2rem 2rem;
+    text-align: left;
+    width:100%;
+}
+
+.friendshipSection{
+    float:right;
+    text-align:right;
+    width:40%;
+    vertical-align: center;
+}
+
+.col-lg-7{
+       margin-left:13rem;
+}
