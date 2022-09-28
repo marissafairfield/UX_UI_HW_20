@@ -4,11 +4,11 @@ body {
 	max-width: 100%;
 	padding: 0 2rem;
 	margin: 0 auto;
-    background: url('images/backgroundSV.jpg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    background: url('../images/backgroundSV.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
     background-size: cover;
-    -o-background-size: cover;
 }
 
 .navbar navbar-expand-lg bg-light {
