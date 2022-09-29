@@ -15,17 +15,14 @@
 		<style>
 			@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 			</style>
-		<!-- Custom styles for this template -->
-		<!-- <link href="css/starter-template.css" rel="stylesheet"> -->
 
-		<!-- YOUR styles for this template -->
+<!-- YOUR styles for this template -->
 		<link href="css/styles.css" rel="stylesheet" type="text/css">
 	</head>
 
 	<body>
 		
-		<div class="col-lg-8 mx-auto p-3 py-md-5">
-			<header class="d-flex align-items-right pb-3 mb-5 border-bottom">
+		<header class="d-flex align-items-right pb-3 mb-5 border-bottom">
 				<a href="/" class="d-flex align-items-right text-dark text-decoration-none">
 					<nav class="navbar navbar-expand-lg">
 						<div class="container-fluid">
@@ -55,66 +52,88 @@
 			</header>
 
 			<main>				
-				<div class="heroSection">
+				<div class="heroSection container">
 					<img src="images/StardewValleyHome.jpg" id=heroImg class="img-fluid" alt="..." width="100%">
 					<p class="welcome"></p>
 				</div>
 
-				<div id="story" class="storyDiv">
+				<div id="stardew-section" class="storyDiv container">
+					<div class="row">
 					<h1>Story</h1>
-					<img src="images/StardewBeginningFarm.png" class="img-fluid" alt="..." width="500" height="600">
-					<p class="storySection">You have inherited your grandfather’s farm
+						<div class="col-md-6">
+						<img src="images/StardewBeginningFarm.png" class="img-fluid" alt="..." width="500" height="600">
+					</div>
+						<div class="col-md-6">
+					<p class="sectionText">You have inherited your grandfather’s farm
 						You move out of the big city to a small town called Stardew Valley
 						You know no one in town, and have no farming experience.
 						You are limited on time and energy, so getting everything done in a day is a challenge.						
 						</p>
-					
+				</div>
+				</div>
 				</div>
 
-				<div id="farming" class="farmingDiv">
+				<div id="stardew-section" class="farmingDiv container">
+					<div class="row">
 					<h1>Farming</h1>
-					<img src="images/StardewPrettyFarm.jpg" class="img-fluid" alt="..." width="500" height="600">
-					<p class="farmingSection">The farm is overgrown and abandoned and needs a lot of work!
+						<div class="col-md-6">
+						<img src="images/StardewPrettyFarm.jpg" class="img-fluid" alt="..." width="500" height="600">
+					</div>
+						<div class="col-md-6">
+					<p class="sectionText">The farm is overgrown and abandoned and needs a lot of work!
 						You are able to get ahold of some seeds and a watering can, and get to work growing crops.
 						As you explore the town, you find new types of seeds and crops that you can build your experience with. You also improve your watering capabilities so that you can grow even more crops.
 						You find out you can raise different animals and sell their products - Cows, goats, pigs, chickens, dugs, and even some kind of dinosaur.
 						</p>
 				</div>
+				</div>
+				</div>
 
-				<div id="combat" class="combatDiv">
-					<h1>Combat</h1>
-					<img src="images/StardewCombat.jpg" class="img-fluid" alt="..." width="500" height="600">
-					<p class="combatSection">To craft necessities, you need to get ahold of different types of resources like wood, stone, and iron.
+				<div id="stardew-section" class="combatDiv container">
+					<div class="row">
+						<h1>Combat</h1>
+						<div class="col-md-6">
+						<img src="images/StardewCombat.jpg" class="img-fluid" alt="..." width="500" height="600">
+					</div>
+						<div class="col-md-6">
+					<p class="sectionText">To craft necessities, you need to get ahold of different types of resources like wood, stone, and iron.
 						You find out that the mines near town are filled with these types of resources, but also filled with monsters that you will have to fight in order to gather what you need. 
 						You find new types of weapons and build up your combat skills gradually.
 						</p>
 				</div>
+				</div>
+				</div>
 
-				<div id="friendship" class="friendshipDiv">
-					<h1>Friendship</h1>
-					<img src="images/StardewFriendship.jpg" class="img-fluid" alt="..." width="500" height="600">
-					<p class="friendshipSection">There are many neighbors around with different personalities, likes, and dislikes. 
+				<div id="stardew-section" class="friendshipDiv container">
+					<div class="row">
+						<h1>Friendship</h1>
+						<div class="col-md-6">
+						<img src="images/StardewFriendship.jpg" class="img-fluid" alt="..." width="500" height="600">
+					</div>
+						<div class="col-md-6">
+					<p class="sectionText">There are many neighbors around with different personalities, likes, and dislikes. 
 						You learn what each neighbor likes and start giving them presents to improve your friendship with them. 
 						Eventually you can date and marry a fellow villager and have a family.
 						</p>
 				</div>
+				</div>
+				</div>
 			</main>
 			<footer class="footerDiv">
-				
 			</footer>
 		</div>
 
 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 
-		<div class="footerNav">
+		<div class="footerNav container">
 			<footer class="text-left text-lg-start">
 				<!-- Grid container -->
 				<div class="container p-4">
 				  <!--Grid row-->
 				  <div class="row">
 					<!--Grid column-->
-					<div class="col-lg-7 col-md-12 mb-4 mb-md-0">
+					<div class="col-md-12">
 					  <h5 class="text-uppercase">Thank you for visiting!</h5>
 			  
 					  <p>
@@ -126,11 +145,10 @@
 						Customize: There are hundreds of character & home decoration options to choose from!
 					  </p>
 
-					  <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+					  <div class="col-md-12>
 						<a href="https://www.stardewvalley.net/" rel=Buy>Buy Stardew Valley Here!</a>
 					</div>
 			  
-		</div>
 	</body>
 </html>
 

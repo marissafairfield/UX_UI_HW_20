@@ -54,6 +54,11 @@ header {
     padding-top:1rem;
 }
 
+#heroImg {
+    border-radius:1rem;
+    padding-top:3rem;
+}
+
 .heroSection {
     position:stretch;
     padding-top: 3rem;
@@ -73,29 +78,14 @@ h1 {
     font-family: 'Press Start 2P', cursive;
 }
 
-h5 {
+h5, p {
     font-family: 'Press Start 2P', cursive;
     font-size:small;
     color:#087AEC;
     text-align:left;
 }
 
-p{
-    font-family: 'Press Start 2P', cursive;
-    font-size:x-small;
-    color:#087AEC;
-    text-align:left;
-}
-
-img.img-fluid{
-    height: 25%;
-    width: 100;
-    border-radius: 1rem;
-    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.1);
-
-}
-
-#story {
+#stardew-section {
     padding: 2rem 2rem;
     text-align: left;
     width:100%;
@@ -105,62 +95,8 @@ img.img-fluid{
     background-color:#FFFFCC;
 }
 
-.storySection{
-    float:right;
-    text-align:right;
-    width:40%;
-    vertical-align: center;
-}
-
-#farming {
-    padding: 2rem 2rem;
-    text-align: left;
-    width:100%;
-    border-radius:1rem;
-    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.1);
-    margin-top: 3rem;
-    background-color:#FFFFCC;
-}
-
-.farmingSection {
-    float:right;
-    text-align:right;
-    width:40%;
-    vertical-align: center;
-}
-
-#combat {
-    padding: 2rem 2rem;
-    text-align: left;
-    width:100%;
-    border-radius:1rem;
-    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.1);
-    margin-top: 3rem;
-    background-color:#FFFFCC;
-}
-
-.combatSection {
-    float:right;
-    text-align:right;
-    width:40%;
-    vertical-align: center;
-}
-
-#friendship {
-    padding: 2rem 2rem;
-    text-align: left;
-    width:100%;
-    border-radius:1rem;
-    box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.1);
-    margin-top: 3rem;
-    background-color:#FFFFCC;
-}
-
-.friendshipSection{
-    float:right;
-    text-align:right;
-    width:40%;
-    vertical-align: center;
+.sectionText{
+    padding-top:2rem;
 }
 
 .col-lg-7{
@@ -172,4 +108,8 @@ footer {
     box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.1);
     margin-bottom: 2rem;
     background-color:#FFFFCC;
+}
+
+img {
+    border-radius:1rem;
 }
